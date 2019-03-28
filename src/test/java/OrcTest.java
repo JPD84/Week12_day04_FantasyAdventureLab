@@ -1,4 +1,5 @@
 import EnemyClass.Orc;
+import Weapons.Club;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,10 +8,11 @@ import static junit.framework.TestCase.assertEquals;
 public class OrcTest {
 
     Orc orc;
+    Club club;
 
     @Before
     public void before(){
-        orc = new Orc("BawJaws", 150, 30);
+        orc = new Orc("BawJaws", 150, 30, club);
     }
 
     @Test

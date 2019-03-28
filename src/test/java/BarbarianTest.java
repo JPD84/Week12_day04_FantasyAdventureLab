@@ -1,4 +1,5 @@
 import Warriors.Barbarian;
+import Weapons.Claymore;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,10 +8,11 @@ import static junit.framework.TestCase.assertEquals;
 public class BarbarianTest {
 
     Barbarian barbarian;
+    Claymore claymore;
 
     @Before
     public void setup(){
-        barbarian = new Barbarian("Conan", 50, 250);
+        barbarian = new Barbarian("Conan", 50, 250, claymore);
     }
 
     @Test
