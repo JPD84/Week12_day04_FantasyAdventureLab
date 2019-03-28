@@ -34,9 +34,8 @@ public class FightRoomTest {
 
     @Test
     public void countWarriors() {
-        assertEquals(0, fightRoom.countWarriors.size());
-        assertEquals(0,fightRoom.countEnemies.size());
-//    }
+        assertEquals(0, fightRoom.countWarriors());
+        assertEquals(0,fightRoom.countEnemies());
 
     }
 }

@@ -17,12 +17,12 @@ public abstract class Room {
         this.enemies = enemies;
     }
 
-    public void countWarriors(){
-        this.warriors.size();
+    public int countWarriors(){
+        return this.warriors.size();
     }
 
-    public void countEnemies(){
-        this.enemies.size();
+    public int countEnemies(){
+        return this.enemies.size();
     }
 
     public void addWarrior(Warrior warrior){
